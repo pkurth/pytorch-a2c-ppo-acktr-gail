@@ -16,6 +16,8 @@ from stable_baselines3.common.vec_env import (DummyVecEnv, SubprocVecEnv,
 from stable_baselines3.common.vec_env.vec_normalize import \
     VecNormalize as VecNormalize_
 
+import gym_loco
+
 try:
     import dmc2gym
 except ImportError:
